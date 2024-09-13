@@ -13,16 +13,11 @@ body {
     overflow-x: hidden;
 }
 
-
 body .page1 {
     height: max-content;
-
-
-
 }
 
 .navbar {
-
     margin: 40px auto;
 }
 
@@ -64,7 +59,6 @@ li a {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
 }
 
 ul {
@@ -91,7 +85,6 @@ ul {
     height: 50px;
     padding: 25px;
     transition: all 0.5s;
-
     background-size: 30px 90px;
     height: 50px;
     background-image: url('images/search.svg');
@@ -129,7 +122,6 @@ ul {
 /*-----------Hero-------------*/
 
 .hero {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +133,6 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .hero .hero-text {
@@ -155,7 +146,6 @@ ul {
 
 .hero p {
     font-size: 20px;
-
 }
 
 .hero .btn-order {
@@ -188,7 +178,6 @@ ul {
     justify-content: center;
     align-items: center;
     box-shadow: 12px 20px 40px 3px black;
-
 }
 
 .wave {
@@ -214,7 +203,6 @@ ul {
 
 .page2 {
     margin: auto;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,7 +267,6 @@ ul {
     padding: 20px;
     margin-bottom: 10px;
     flex-wrap: wrap;
-
 }
 
 
@@ -299,7 +286,6 @@ ul {
     columns: #1e1e1e;
 }
 
-
 .card1 p {
     font-size: 15px;
     color: #555555;
@@ -308,10 +294,8 @@ ul {
 
 
 
-
 /*-----------page3-----------*/
 .page3 {
-
     height: 80vh;
     margin: 200px auto;
 }
@@ -364,9 +348,6 @@ ul {
     gap: 40px;
 }
 
-
-
-
 .page3 .wishlist {
     position: absolute;
     background-color: #39DB4A;
@@ -389,9 +370,6 @@ ul {
     left: 25px;
 }
 
-
-
-
 .page3 .container {
     position: relative;
     display: flex;
@@ -404,7 +382,6 @@ ul {
     gap: 8px;
     box-shadow: 0px 0px 19px -6px;
     overflow: hidden;
-
 }
 
 .page3 .content img {
@@ -431,7 +408,6 @@ ul {
 }
 
 .page3 .content p {
-
     color: #555555;
 }
 
@@ -466,7 +442,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .chef {
@@ -553,7 +528,6 @@ ul {
 }
 
 .page4 .feedback .images {
-
     position: absolute;
     left: 540px;
 }
@@ -561,13 +535,11 @@ ul {
 .page4 .feedback .image1 {
     position: relative;
     margin-left: -21px;
-
 }
 
 .page4 .feedback .image {
     height: 60px;
     position: absolute;
-
 }
 
 .page4 .feedback .image2 {
@@ -615,6 +587,7 @@ ul {
     gap: 40px;
     height: fit-content;
     margin: auto;
+    margin-bottom: 200px;
 }
 
 .page5 .main-text {
@@ -676,7 +649,6 @@ ul {
     padding: 20px 30px;
     width: 250px;
     height: auto;
-
     box-shadow: 0px 0px 19px -6px;
     overflow: hidden;
 }
@@ -703,16 +675,15 @@ ul {
 /*---------footer----------*/
 
 .footer {
-    margin-top: 100px;
-    margin: auto;
+    margin: 100px auto;
     height: fit-content;
+
 }
 
 footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-
     gap: 150px;
 }
 
@@ -734,7 +705,6 @@ footer ul {
     display: grid;
     grid-template-columns: 50% 50% 50%;
     row-gap: 20px;
-
 }
 
 footer li a {
@@ -809,63 +779,6 @@ footer a {
 
 }
 
-@media (max-width: 1126px) {
-
-    /* body{
-        padding: 50px;
-    }
-    .navbar{
-        width: 1000px;
-
-    }
-
-    .navbar-brand .logo1{
-        
-    }
-    .hero {
-        width: 100%;
-        display: flex;
-        
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-        margin: 150px auto;
-    }
-
-    
-
-    
-    .wave{
-        display: none;
-    }
-
-    .frame{
-        display: none;
-    }
-
-    
-
-    
-
-    
-    .page2 {
-        margin-top: 100px;
-height: 200vh;
-    }  */
-
-}
-
-
-/* @media (min-width: 2350px){
-    .wave{
-       display: none;
-    }
-
-    .frame{
-       display: none;
-    }
-    
-} */
 
 @media (max-width: 576px) {
     .wave {
@@ -873,7 +786,6 @@ height: 200vh;
         left: 115%;
         height: 135px;
         width: 80px;
-
     }
 
     .frame {
@@ -1164,13 +1076,11 @@ height: 200vh;
     .page4 .feedback .image1 {
         position: relative;
         margin-left: -1px;
-
     }
 
     .page4 .feedback .image {
         height: 170px;
         position: absolute;
-
     }
 
     .page4 .feedback .image2 {
@@ -1261,7 +1171,6 @@ height: 200vh;
         height: 750px;
         gap: 80px;
         margin-bottom: 1000px;
-
     }
 
     .right .body2 {
@@ -1288,7 +1197,7 @@ height: 200vh;
     /*--footer----*/
 
     .footer {
-        margin-top: 0;
+        margin-top: 500px;
         margin-bottom: 300px;
         margin-left: 100px;
     }
@@ -1328,6 +1237,3 @@ height: 200vh;
         font-size: 100px;
     }
 }
-
-
-@media (min-width: 992px) {}
